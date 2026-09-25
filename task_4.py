@@ -22,3 +22,4 @@ print(ord(symbol))
 print(chr(ord(symbol)))
 print(symbol.encode('utf-8'))
 print(len(symbol.encode('utf-8')))
+# symbol[0] = 'a'
