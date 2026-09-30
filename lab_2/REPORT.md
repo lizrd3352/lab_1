@@ -38,4 +38,10 @@ print('second is first: ', second is first)
 second.append(40)
 print(first, second)
 ```
-И можем наблюдать, что добавление нового элемента в список `second` 
+И можем наблюдать, что добавление нового элемента в список `second` не повлияло на список `first`:
+
+```python
+second == first:  True
+second is first:  False
+[10, 20, 30] [10, 20, 30, 40]
+
